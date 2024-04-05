@@ -1,7 +1,6 @@
 // Here's the solution
-// Dont forget to return your fetch
+// Don't forget to return your fetch
 
-// index.js
 function fetchBooks() {
   return fetch("https://anapioficeandfire.com/api/books")
     .then(response => response.json())
